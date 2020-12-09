@@ -3,8 +3,8 @@
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
-    --warm-black: #201E1C;
-    --black: #282623;
+    --black: #201E1C;
+    --warm-black: #282623;
     --grey: #BABABA;
     --off-white:  #FAF8F7;
     --just-white: #FFFFFF;
@@ -240,7 +240,7 @@ main {
     min-width: 320px;
     height: auto;
     padding: 2rem 1rem;
-    background-color: var(--warm-black);
+    background-color: var(--black);
 }
 .product-detail--batata-logo {
     position: absolute;
@@ -267,6 +267,55 @@ main {
 }
 .product-detail--title p {
     margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+/* Product cards */
+.product-detail--card {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .clock,
+.product-detail--card .eye,
+.product-detail--card .money,
+.product-detail--card .check {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .clock {
+    background-image: url('./assets/icons/clock.svg');
+}
+.product-detail--card .eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail--card .money {
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+.product-detail--card .check {
+    background-image: url('./assets/icons/check-circle.svg');
+}
+.product--card-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
