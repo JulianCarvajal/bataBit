@@ -17,6 +17,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     position: relative;
@@ -87,14 +88,14 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
-.main-exchange-container {
+.main-container {
     width: 100%;
     height: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
-.main-exchange-container--title {
+.container-info--title {
     width: 100%;
     min-width: 288px;
     max-width: 900px;
@@ -110,14 +111,14 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
-.main-exchange-container h2 {
+.container-info--title h2 {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
 }
-.main-exchange-container p {
+.container-info--title p {
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -337,4 +338,12 @@ main {
     line-height: 2.6rem;
     color: var(--just-white);
     text-align: center;
+}
+/* Plans */
+.main-class-container {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.main-class-container>div p {
+    margin-bottom: 5rem;
 }
